@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align : center;
+    background-color: #3498db;
+    color: #fff;
+    padding : 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.menu-list {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+.menu-list img {
+    max-width: 100px;
+}
+#menus ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-direction:row;
+    justify-content: space-between;
+}
+#menus li {
+    margin-right: 15px;
+}
+#menus a {
+    text-decoration: none;
+    color: #fff;
+}
+.hd {
+    text-align: center;
+}
+.logo {
+    align-items: left;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.product img {
+    margin-bottom: 10px;
+
+}
+.product-info {
+    max-width: none;
+}
+
+
+#features {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+/* Placing price according to the image*/
+.product-container {
+    position: relative;
+}
+.product-container .price {
+    position: absolute;
+    top: 80%;
+    left : 25%;
+    color: #3498db;
+    padding: 5px;
+    border-bottom-right-radius: 8px;
+}
+
+/* For aaditional images*/
+.additional-watches {
+    display: flex;
+    margin-top: 20px; /* Add margin between the primary image and additional watches */
+}
+.additional-watches .watch {
+    text-align: center;
+}
+.additional-watches img {
+    max-width: 50%; /* Adjust the width of additional watches as needed */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.additional-watches .price {
+    color: #3498db;
+    padding: 5px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+
+#features h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+#purchase {
+    text-align: center;
+    padding: 50px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #2ecc71;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .product {
+        padding: 20px;
+    }
+}
