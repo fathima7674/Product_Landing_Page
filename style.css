@@ -64,7 +64,7 @@ footer {
 
 }
 .product-info {
-    max-width: none;
+    max-width: 400%;
 }
 
 
@@ -95,7 +95,7 @@ footer {
     text-align: center;
 }
 .additional-watches img {
-    max-width: 50%; /* Adjust the width of additional watches as needed */
+    max-width: 100%; /* Adjust the width of additional watches as needed */
     border-radius: 8px;
     margin-bottom: 10px;
 }
