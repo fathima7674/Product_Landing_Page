@@ -64,7 +64,7 @@ footer {
 
 }
 .product-info {
-    max-width: 400%;
+    position: relative;
 }
 
 
